@@ -3,22 +3,41 @@
    padding: 0; 
    box-sizing: border-box; 
 }
-/* -------------------------------------------------- */
-/* Inizio Common */
-
-/* Fine Common */
-/* -------------------------------------------------- */
-/* Inizio Header */
-
-/* Fine Header */
-/* -------------------------------------------------- */
 /* Inizio Main */
 
-/* Fine Main */
-/* -------------------------------------------------- */
-/* Inizio Footer */
+.container-fluid {
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   justify-content: center;
+}
 
-/* Fine Footer */
+.container {
+   display: flex;
+   align-self: center;
+   justify-content: space-around;
+   border: 1px solid lightgrey;
+   border-radius: 20px;
+}
+
+.prova {
+   justify-content: center;
+}
+
+h1 {
+   color: rgb(58, 58, 58);
+}
+
+.contenitore {
+   text-align: right;
+}
+
+.prova {
+   display: flex;
+   flex-direction: column;
+}
+
+/* Fine Main */
 /* -------------------------------------------------- */
 
 /* !DEBUG ZONE! */
